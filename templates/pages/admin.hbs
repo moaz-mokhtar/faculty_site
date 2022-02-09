@@ -1,0 +1,51 @@
+{{!-- Admin sidebar --}}
+<div class="col-md-3">
+
+    <div class="d-flex flex-column flex-shrink-0 p-3 bg-light">
+        <span class="fs-4">
+            Admin actions
+        </span>
+
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li>
+                <a href="#" class="nav-link link-dark">
+                    Update News
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link link-dark">
+                    Update Faculity
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link link-dark">
+                    Update Courses
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+{{!-- Content part --}}
+<div class="col-md-8">
+    {{!-- <div
+        class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    </div> --}}
+    <div class="row border-bottom pt-3  mb-3 ">
+        <h1 class="h2">Welcome to Admin page</h1>
+        <p>Login date: xxx</p>
+
+    </div>
+
+    <div class=" mb-3 rounded">
+        {{> about}}
+    </div>
+
+    <div class="container ">
+        <div class=" mb-3 rounded">
+            {{> events_card}}
+        </div>
+
+
+    </div>
+</div>

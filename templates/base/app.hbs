@@ -16,7 +16,11 @@
 
     <main class="container">
         <div class="row mb-2">
+            {{#if is_admin}}
+            {{> admin}}
+            {{else}}
             {{> main}}
+            {{/if}}
         </div>
     </main>
 

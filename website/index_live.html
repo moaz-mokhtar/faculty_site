@@ -39,101 +39,147 @@
     <main class="container">
         <div class="row mb-2">
             <div class="col-md-3">
-    <div class="position-sticky">
-    <div class="p4 ">
-        <img src="logo1.jpg" class="img-thumbnail " alt="COMDT MCTE IMAGE">
-        <p>LT Gen xxx</p>
-    </div>
-    <div class="p4">
-        <div class="login">
-            <h4>Login</h4>
-            <div class="mb-3 row w-100">
-                <label for="email" class="col-sm-4 col-form-label">Email</label>
-                <div class="col-sm-8">
-                    <input type="text" class="form-control" id="email">
-                </div>
-            </div>
-            <div class="mb-3 row w-100">
-                <label for="inputPassword" class="col-sm-4 col-form-label">Password</label>
-                <div class="col-sm-8">
-                    <input type="password" class="form-control" id="inputPassword">
-                </div>
-            </div>
-            <button type="submit" class="btn btn-primary mb-3">Login</button>
-        </div>
-    </div>
-</div></div>
 
+    <div class="d-flex flex-column flex-shrink-0 p-3 bg-light">
+        <span class="fs-4">
+            Admin actions
+        </span>
 
-<div class="col-md-6">
-    <div class="border rounded">
-    <h4 class="text-center">Carousel Image</h4>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="First slide label">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="Second slide label">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="Third slide label">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li>
+                <a href="#" class="nav-link link-dark">
+                    Update News
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link link-dark">
+                    Update Faculity
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link link-dark">
+                    Update Courses
+                </a>
+            </li>
+        </ul>
     </div>
 </div>
-    <div class="border rounded">
-    <h4 class="text-center">Latest News</h4>
-</div></div>
 
-<div class="col-md-3">
-    <div class="position-sticky">
-    <div class="p4 ">
-        <img src="..." class="img-thumbnail " alt="CDR FCTS">
-        <p>PR14 xxx</p>
+<div class="col-md-8">
+    <div class="row border-bottom pt-3  mb-3 ">
+        <h1 class="h2">Welcome to Admin page</h1>
+        <p>Login date: xxx</p>
+
     </div>
-    <div class="p4">
-        <div class="container search">
-            <h4 class="search-text">Search Here</h4>
-            <div class="d-flex justify-content-left h-100" style="padding-top:3%">
-                <div class="searchbar">
-                    <input class="search_input" type="text" name="" placeholder="Search...">
-                    <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
-                </div>
+
+    <div class=" mb-3 rounded">
+        <div class="container border rounded text-center">
+
+    <h3 class="">Our team</h3>
+    <table class="table ">
+        <thead>
+            <tr>
+                <th scope="col">IC No</th>
+                <th scope="col">Name</th>
+                <th scope="col">DOI</th>
+                <th scope="col">Mob No</th>
+                <th scope="col">Email</th>
+                <th scope="col">Course</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>STD-2021-0322</td>
+                <td>Student 1 name </td>
+                <td>DOI 1 </td>
+                <td>+911234567899</td>
+                <td>stduent@univ.edu </td>
+                <td>Programming 101</td>
+
+            </tr>
+
+        </tbody>
+    </table>
+</div>    </div>
+
+    <div class="container ">
+        <div class=" mb-3 rounded">
+            <div class="container-flux">
+    <div class="container rounded border-bottom">
+        <h5>Update event</h5>
+
+        <div class="mb-3 row">
+            <label for="#" class="col-sm-3 col-form-label">Event name</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control" value="">
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="#" class="col-sm-3 form-label">Description</label>
+            <div class="col-sm-8">
+                <textarea class="form-control" rows="3"></textarea>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="#" class="col-sm-4 form-label">Upload photo</label>
+            <div class="col-sm-8">
+                <a class="btn btn-secondary" href="#" role="button">Upload photo</a>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <div class="col-sm-10"></div>
+            <div class="col-sm-2">
+                <a class="btn btn-secondary" href="#" role="button">Add</a>
             </div>
         </div>
     </div>
-</div></div>        </div>
+
+    <div class="container rounded ">
+        <h5>Events list</h5>
+        <table class="table ">
+            <thead>
+                <tr>
+                    <th scope="col">Heading</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Options</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Event 1</td>
+                    <td>2021-05-15</td>
+                    <td>
+                        <a class="btn btn-secondary btn-sm" href="#" role="button">Edit</a>
+                        <a class="btn btn-danger btn-sm" href="#" role="button">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Event 2</td>
+                    <td>2021-05-17</td>
+                    <td>
+                        <a class="btn btn-secondary btn-sm" href="#" role="button">Edit</a>
+                        <a class="btn btn-danger btn-sm" href="#" role="button">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Event 3</td>
+                    <td>2021-05-28</td>
+                    <td>
+                        <a class="btn btn-secondary btn-sm" href="#" role="button">Edit</a>
+                        <a class="btn btn-danger btn-sm" href="#" role="button">Delete</a>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+
+</div>        </div>
+
+
+    </div>
+</div>        </div>
     </main>
 
     <div class="container">
